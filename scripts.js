@@ -1,3 +1,7 @@
+   $(window).on('load', function(){
+    $('.pre-loader').delay(1800).fadeOut();
+    });
+
   $(".post-wrapper").slick({
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -31,7 +35,4 @@
       }
     ]
   });
-  $(window).on('load', function(){
-    $('.pre-loader').delay(1800).fadeOut();
-    });
-
+ 
